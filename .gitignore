@@ -2,3 +2,4 @@
 .Trash/
 .cache/
 .local/
+node_modules/
