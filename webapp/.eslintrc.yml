@@ -7,4 +7,4 @@ overrides:
   - files:
       - vite.config.ts
     parserOptions:
-      project: ./tsconfig.node.jso
+      project: ./tsconfig.node.json
