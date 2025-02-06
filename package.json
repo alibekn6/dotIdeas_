@@ -7,7 +7,8 @@
         "w": "pnpm --filter @dotideas/webapp",
         "dev": "pnpm -r --parallel dev",
         "types": "concurrently 'pnpm b types' 'pnpm w types' ",
-        "prettify": "pnpm -r --parallel prettify"
+        "prettify": "pnpm -r --parallel prettify",
+        "prepare": "husky install"
     },
     "devDependencies": {
         "concurrently": "^9.1.2",
