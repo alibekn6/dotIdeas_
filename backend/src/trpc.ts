@@ -10,8 +10,10 @@ const ideas = [
   { nick: 'cool-idea-nick-5', title: 'Idea 5', description: 'Description of idea 5...' },
 ]
 
-const x:string = '12ass'
-console.log(x);
+if (Math.abs(12) + 1) {
+  console.info(Math.abs(12));
+}
+
 
 
 export const trpcRouter = trpc.router({
