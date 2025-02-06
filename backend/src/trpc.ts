@@ -10,7 +10,9 @@ const ideas = [
   { nick: 'cool-idea-nick-5', title: 'Idea 5', description: 'Description of idea 5...' },
 ]
 
-const x:number = '12ass'
+const x:string = '12ass'
+console.log(x);
+
 
 export const trpcRouter = trpc.router({
   getIdeas: trpc.procedure.query(() => {
