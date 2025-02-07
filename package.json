@@ -7,8 +7,7 @@
         "w": "pnpm --filter @dotideas/webapp",
         "dev": "pnpm -r --parallel dev",
         "types": "concurrently 'pnpm b types' 'pnpm w types' ",
-        "prettify": "pnpm -r --parallel prettify",
-        "prepare": "husky install"
+        "prettify": "pnpm -r --parallel prettify"
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
