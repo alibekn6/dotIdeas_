@@ -3,7 +3,7 @@ import { getAllIdeasRoute, getViewIdeaRoute, viewIdeaRouteParams } from './lib/r
 import { TrpcProvider } from './lib/trpc'
 import { AllIdeasPage } from './pages/AllIdeasPage'
 import { ViewIdeaPage } from './pages/ViewIdeaPage'
-
+import './styles/global.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 export const App = () => {
