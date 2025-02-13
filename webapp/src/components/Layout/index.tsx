@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom'
-import { getAllIdeasRoute } from '../../lib/routes'
+import { getAllIdeasRoute, getNewIdeaRoute } from '../../lib/routes'
 import styles from './index.module.scss'
 
 export const Layout = () => {
@@ -13,6 +13,9 @@ export const Layout = () => {
               All Ideas
             </Link>
           </li>
+          <Link className={styles.link} to={getNewIdeaRoute()}>
+            Add idea
+          </Link>
         </ul>
       </div>
       <div className={styles.content}>

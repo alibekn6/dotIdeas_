@@ -1,0 +1,7 @@
+@use '../../styles/_mixins.scss' as *;
+@use '../../styles/_vars.scss' as *;
+
+
+.title {
+    @include h1;
+}

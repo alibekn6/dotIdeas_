@@ -9,7 +9,7 @@ export const ViewIdeaPage = () => {
 
   const { data, error, isLoading, isFetching, isError } = trpc.getIdea.useQuery({
     ideaNick
-})
+  })
 
   if (isLoading || isFetching) {
     return <span>Loading...</span>

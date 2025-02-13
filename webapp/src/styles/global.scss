@@ -1,5 +1,5 @@
-@import '../../node_modules/reset-css/sass/reset';
-@import './_vars.scss';
+@use '../../node_modules/reset-css/sass/reset';
+@use '_vars.scss';
 
 html, body, #root {
     height: 100%;
@@ -9,11 +9,11 @@ html, body, #root {
 }
 
 body {
-    font-family: $defaultFontFamily;
-    font-size: $defaultFontSize;
-    background: $defaultBackgroundColor;
-    color: $defaultTextColor;
-    line-height: $defaultLineHeight;
+    font-family: vars.$defaultFontFamily;
+    font-size: vars.$defaultFontSize;
+    background: vars.$defaultBackgroundColor;
+    color: vars.$defaultTextColor;
+    line-height: vars.$defaultLineHeight;
 }
 
 *, *:before, *:after {
