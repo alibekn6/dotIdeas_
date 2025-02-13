@@ -10,6 +10,7 @@ export const Input = ({
     formik: FormikProps<any>
 }) => {
   const value = formik.values[name]
+  const error = formik.errors[name] as string | undefined
   return (
 
     <div style={{ marginBottom: 10 }}>
@@ -24,6 +25,8 @@ export const Input = ({
         }}
         value={value}
       />
+
+      {error && <div style={{color:"red"}}>{error}</div>}
     </div>
   )
 }
