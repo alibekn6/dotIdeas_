@@ -1,9 +1,6 @@
 @use '../../styles/_vars.scss' as *;
 @use '../../styles/_mixins.scss' as *;
 
-.title {
-  @include h1;
-}
 
 .ideas {
   .idea {
@@ -14,16 +11,9 @@
       margin-top: 20px;
     }
 
-    .ideaName {
-      @include h2;
 
       .ideaLink {
         @include link;
       }
-    }
-
-    .ideaDescription {
-      font-size: 18px;
-    }
   }
 }
